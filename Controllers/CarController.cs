@@ -16,7 +16,7 @@ namespace OblOpgave4.Controllers
     {
         private CarManager _manager = new CarManager();
 
-        // GET: api/Cars?modelFilter<value> 
+        // GET: api/Cars?maxPrice=<value> 
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [HttpGet]
